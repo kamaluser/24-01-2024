@@ -18,7 +18,10 @@ Console.WriteLine(result);
 
 /*string text = "hello world!";
 var result3 = text.GetValueIndexes('l');
-Console.WriteLine(result3);*/
+for (int i = 0; i < result3.Length; i++)
+{
+    Console.WriteLine(result3[i]);
+}*/
 
 /*string text = "Salam. Necesen?";
 var result4 = text.GetFirstSentence();
